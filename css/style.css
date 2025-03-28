@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    /* border: 1px solid red; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 5fr;
+    grid-template-rows: min-content 1fr;
+    
+    min-height: 100vh;
+}
+
+.header-container {
+    grid-row: 1 / 1;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+    background-color: white;
+}
+
+.menu-one {
+    display: flex;
+} 
+
+.menu-one > form {
+    flex-grow: 1;
+}
+
+.menu-two {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-two > .profile {
+    display: flex;
+}
+
+.sidebar-container {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    background-color: rgb(84, 84, 255);
+}
+
+.section-one,
+.section-two > div,
+.section-three > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.main-container {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    background-color: rgb(237, 243, 255);
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Width: Percentage with max width / ch */
+/* Height: Min height if needed */
+/* Padding/Margin: rem or px */
+/* Shadows or borders: px */
+/* vw or vh sometimes useful (ex: embedded videos or responsive font size[px + vw]) */
+/* If vanilla CSS, check normalize or resets */
+
+/* Group related properties */
+/* Layout & Positioning */
+/* Box Model */
+/* Typography */
+/* Visual and Background Styles*/
+/* Animation and Interaction */
