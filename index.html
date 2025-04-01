@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin | Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -14,22 +17,26 @@
         <div class="header-container">
             <div class="menu-one">
                 <form action="#">
-                    <button type="submit" id="search-button">Search</button>
+                    <button type="submit" id="search-button">
+                        <img src="./css/images/icons/search.svg" alt="Search Button">
+                    </button>
                     <input type="search" name="search" id="search">
                 </form>
-                <a href="#">Notification</a>
-                <img src="" alt="Profile Picture">
+                <a href="#">
+                    <img src="./css/images/icons/notification.svg" alt="Notification Icon">
+                </a>
+                <img src="https://avatar.iran.liara.run/public/42" alt="Profile Picture">
                 <p>Thor Odinson</p>
             </div>
             <div class="menu-two">
                 <div class="profile">
-                    <img src="" alt="Profile Picture">
+                    <img src="https://avatar.iran.liara.run/public/42" alt="Profile Picture">              
                     <div class="greeting">
                         <p>Hi There,</p>
                         <p>Thor Odinson (@thorodinson)</p>
                     </div>
                 </div>
-                <div class="action-buttons">
+                <div class="action-buttons-container">
                     <button class="action new">New</button>
                     <button class="action uplaod">Upload</button>
                     <button class="action share">Share</button>
@@ -39,53 +46,74 @@
 
         <div class="sidebar-container">
             <div class="section-one">
-                <img src="" alt="Dashboard Icon">
-                <p>Dashboard</p>
+                <a href="">
+                    <img src="./css/images/icons/dashboard.svg" alt="Dashboard Icon">
+                    Dashboard
+                </a>
             </div>
-            <div class="section-two">
-                <div>
-                    <img src="" alt="Home Icon">
-                    <p>Home</p>
-                </div>
-                <div>
-                    <img src="" alt="Profile Icon">
-                    <p>Profile</p>
-                </div>
-                <div>
-                    <img src="" alt="Messages Icon">
-                    <p>Messages/p>
-                </div>
-                <div>
-                    <img src="" alt="History Icon">
-                    <p>History</p>
-                </div>
-                <div>
-                    <img src="" alt="Tasks Icon">
-                    <p>Tasks</p>
-                </div>
-                <div>
-                    <img src="" alt="Communities Icon">
-                    <p>Communities</p>
-                </div>
-            </div>
-            <div class="section-three">
-                <div>
-                    <img src="" alt="Settings Icon">
-                    <p>Settings</p>
-                </div>
-                <div>
-                    <img src="" alt="Support Icon">
-                    <p>Support</p>
-                </div>
-                <div>
-                    <img src="" alt="Privacy Icon">
-                    <p>Privacy</p>
-                </div>
-            </div>
+            <ul class="section-two">
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/home.svg" alt="Home Icon">
+                        home
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/profile.svg" alt="Profile Icon">
+                        Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/messages.svg" alt="Messages Icon">
+                        Messages
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/history.svg" alt="History Icon">
+                        History
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/tasks.svg" alt="Tasks Icon">
+                        Tasks
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/communities.svg" alt="Communities Icon">
+                        Communities
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="section-three">
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/settings.svg" alt="Settings Icon">
+                        Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/support.svg" alt="Support Icon">
+                        Support
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./css/images/icons/privacy.svg" alt="Privacy Icon">
+                        Privacy
+                    </a>
+                </li>
+            </ul>
         </div>
         
         <div class="main-container">
-            <p>projects</p>
+            
         </div>
 
     </div>
