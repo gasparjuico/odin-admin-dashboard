@@ -175,13 +175,21 @@ table {
     background-color: var(--color-sidebar-bg);
 }
 
+.section-one {
+    margin-top: 15px;
+
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .section-one a {
     display: flex;
     align-items: center;
-    gap: 8px; /* Space between image and text */
+    
 }
 
 .section-one a img {
+    flex-basis: 50px;
     height: 40px;
     width: auto;
     filter: invert(100%);
@@ -192,34 +200,18 @@ table {
 .section-three li a {
     display: flex;
     align-items: center;
-    gap: 8px; /* Space between image and text */
+
+    padding: 5px 0px;
+
+    font-weight: bold;
 }
 
 .section-two li a img,
 .section-three li a img {
-    height: 20px; /* Adjust as needed */
+    flex-basis: 50px;
+    height: 20px;
     width: auto;
     filter: invert(100%); 
-}
-
-
-/* .section-one,
-.section-two > div,
-.section-three > div {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-} */
-
-.section-one {
-    margin-top: 1rem;
-
-    font-size: 2rem;
-}
-
-.section-two > p,
-.section-three > p {
-    font-weight: bold;
-
 }
 
 .main-container {
