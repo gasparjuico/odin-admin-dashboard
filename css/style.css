@@ -177,20 +177,20 @@ table {
     background-color: var(--color-sidebar-bg);
 }
 
-.section-one {
+.sidebar-section-one {
     margin-top: 15px;
 
     font-size: 2rem;
     font-weight: bold;
 }
 
-.section-one a {
+.sidebar-section-one a {
     display: flex;
     align-items: center;
     
 }
 
-.section-one a img {
+.sidebar-section-one a img {
     flex-basis: 50px;
     height: 40px;
     width: auto;
@@ -198,8 +198,8 @@ table {
 }
 
 
-.section-two li a,
-.section-three li a {
+.sidebar-section-two li a,
+.sidebar-section-three li a {
     display: flex;
     align-items: center;
 
@@ -208,8 +208,8 @@ table {
     font-weight: bold;
 }
 
-.section-two li a img,
-.section-three li a img {
+.sidebar-section-two li a img,
+.sidebar-section-three li a img {
     flex-basis: 50px;
     height: 20px;
     width: auto;
