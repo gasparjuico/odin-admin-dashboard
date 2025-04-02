@@ -53,7 +53,7 @@ table {
 
 .container {
     display: grid;
-    grid-template-columns: minmax(200px, 1fr) 5fr;
+    grid-template-columns: 250px 1fr;
     grid-template-rows: min-content 1fr;
 
     min-height: 100vh;
@@ -155,6 +155,8 @@ table {
     border: none;
     border-radius: 25px;
 
+    font-size: 1.6rem;
+
     color: var(--color-sidebar-font);
     background-color: var(--color-sidebar-bg);
 }
@@ -164,7 +166,7 @@ table {
     grid-column: 1 / 2;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     /* shadow on header does not show on sidebar */
     position: relative;
     z-index: 2;
