@@ -15,6 +15,7 @@
     --color-sidebar-font: #ffffff;
     --color-main-bg: #dddddd;
     --color-accent: #ffbb00;
+    --color-main-second-font: #808080;
 }
 
 html{
@@ -265,6 +266,8 @@ table {
     > p:last-of-type {
         flex-grow: 1;
         padding-bottom: 2rem;
+
+        color: var(--color-main-second-font);
     }
 }
 
@@ -280,8 +283,41 @@ table {
     vertical-align: middle;
 }
 
+.announcement-card {
+    border-radius: 5px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
 
+    font-size: 1.4rem;
 
+    background-color: var(--color-header-bg);
+}
+
+.announcement-card div {
+    > p:first-child {
+        font-weight: bold;
+    }
+
+    > p:last-of-type {
+        color: var(--color-main-second-font)
+    }
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: 10px 0;
+}
 /* Width: Percentage with max width / ch */
 /* Height: Min height if needed */
 /* Padding/Margin: rem or px */
