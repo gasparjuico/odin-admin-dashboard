@@ -222,8 +222,14 @@ table {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 20px;
 
+    padding: 20px 20px 40px 20px;
     background-color: var(--color-main-bg);
+
+    & .section-title {
+        padding-bottom: 10px;
+    }
 }
 
 .projects-container {
@@ -239,9 +245,6 @@ table {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 20px;    
-
-    
-    
 }
 
 .card {
