@@ -10,9 +10,9 @@
 }
 
 :root {
-    --color-header-bg: #ffffff;
+    --color-header-bg: #faf9f6;
     --color-sidebar-bg: #007BFF;
-    --color-sidebar-font: #ffffff;
+    --color-sidebar-font: #fdfdfd;
     --color-main-bg: #dddddd;
     --color-accent: #ffbb00;
     --color-main-second-font: #808080;
